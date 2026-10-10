@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         backupGlobals="false">
+    <testsuites>
+        <testsuite name="ps_currencyselector">
+            <file>PsCurrencyselectorConstructorTest.php</file>
+            <file>PsCurrencyselectorInstallTest.php</file>
+            <file>PsCurrencyselectorWidgetTest.php</file>
+            <file>PsCurrencyselectorUrlTest.php</file>
+            <file>DirectoryGuardTest.php</file>
+            <file>CurrencySelectorTemplateTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
